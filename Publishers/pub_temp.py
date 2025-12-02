@@ -6,7 +6,7 @@ from paho.mqtt import client as mqtt_client
 broker = "localhost"
 port = 1883
 topic = "sensors/temperature"
-client_id = "pub_temp"
+client_id = "pub_temp (12217586)"
 
 def connect():
     client = mqtt_client.Client(client_id)

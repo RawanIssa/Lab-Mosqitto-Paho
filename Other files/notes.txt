@@ -1,0 +1,28 @@
+student ID: 12217586
+
+pip install paho-mqtt==1.6.1
+
+RUN:
+cd Publishers
+python pub_temp.py
+python pub_humidity.py
+python pub_people.py
+
+cd Subscribers
+python sub_temp.py
+python sub_all.py
+
+
+cmd run as admin
+
+ how to start server: 
+ cd "C:\Program Files\mosquitto"
+ mosquitto.exe -v
+
+check server:
+sc query mosquitto
+
+stop server: 
+net stop mosquitto
+
+

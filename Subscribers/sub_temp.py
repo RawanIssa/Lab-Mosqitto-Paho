@@ -4,7 +4,7 @@ from paho.mqtt import client as mqtt_client
 broker = "localhost"
 port = 1883
 topic = "sensors/temperature"
-client_id = "sub_temp"
+client_id = "sub_temp (12217586)"
 
 logfile = "log_sub_temp.txt"
 
